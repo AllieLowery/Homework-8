@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A93809829F72C1700C6BFD2 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A93809729F72C1700C6BFD2 /* WebViewController.swift */; };
 		6AD3DA7F29F09AAF00B30803 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD3DA7E29F09AAF00B30803 /* AppDelegate.swift */; };
 		6AD3DA8129F09AAF00B30803 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD3DA8029F09AAF00B30803 /* SceneDelegate.swift */; };
 		6AD3DA8329F09AAF00B30803 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD3DA8229F09AAF00B30803 /* ViewController.swift */; };
 		6AD3DA8629F09AAF00B30803 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AD3DA8429F09AAF00B30803 /* Main.storyboard */; };
 		6AD3DA8829F09AB100B30803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AD3DA8729F09AB100B30803 /* Assets.xcassets */; };
 		6AD3DA8B29F09AB100B30803 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AD3DA8929F09AB100B30803 /* LaunchScreen.storyboard */; };
+		6AD3DA9329F0A0DF00B30803 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD3DA9229F0A0DF00B30803 /* LocationViewController.swift */; };
+		6AD3DA9529F0A43700B30803 /* TBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD3DA9429F0A43700B30803 /* TBViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A93809729F72C1700C6BFD2 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		6AD3DA7B29F09AAF00B30803 /* Homework 6-Location Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homework 6-Location Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AD3DA7E29F09AAF00B30803 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AD3DA8029F09AAF00B30803 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		6AD3DA8729F09AB100B30803 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6AD3DA8A29F09AB100B30803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6AD3DA8C29F09AB100B30803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AD3DA9229F0A0DF00B30803 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		6AD3DA9429F0A43700B30803 /* TBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				6AD3DA8029F09AAF00B30803 /* SceneDelegate.swift */,
 				6AD3DA8229F09AAF00B30803 /* ViewController.swift */,
 				6AD3DA8429F09AAF00B30803 /* Main.storyboard */,
+				6A93809729F72C1700C6BFD2 /* WebViewController.swift */,
+				6AD3DA9429F0A43700B30803 /* TBViewController.swift */,
+				6AD3DA9229F0A0DF00B30803 /* LocationViewController.swift */,
 				6AD3DA8729F09AB100B30803 /* Assets.xcassets */,
 				6AD3DA8929F09AB100B30803 /* LaunchScreen.storyboard */,
 				6AD3DA8C29F09AB100B30803 /* Info.plist */,
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AD3DA9529F0A43700B30803 /* TBViewController.swift in Sources */,
+				6A93809829F72C1700C6BFD2 /* WebViewController.swift in Sources */,
 				6AD3DA8329F09AAF00B30803 /* ViewController.swift in Sources */,
 				6AD3DA7F29F09AAF00B30803 /* AppDelegate.swift in Sources */,
 				6AD3DA8129F09AAF00B30803 /* SceneDelegate.swift in Sources */,
+				6AD3DA9329F0A0DF00B30803 /* LocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +299,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4D5DSHN8UZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Homework 6-Location Application/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,6 +327,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4D5DSHN8UZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Homework 6-Location Application/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
